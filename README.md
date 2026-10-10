@@ -24,9 +24,18 @@ The analysis was conducted in R and included exploratory data visualization, des
 
 The project uses synthetic exam-performance data rather than observations collected from actual students.
 
-## Findings
+## Key Findings
 
-*To be completed with key results and conclusions from the report.*
+* **Predictor significance:** Hypothesis testing and variable selection indicated that sleep and gender did not significantly contribute to the full regression model.
+* **Interaction effects:** Testing interaction terms identified relationships between study hours and attendance, as well as study hours and extracurricular participation. The study hours × attendance interaction was more significant and was retained in the final model.
+* **Practical implications:** Within this synthetic dataset, the findings suggest that studying, attendance, and extracurricular participation may be relevant to exam performance. These relationships would need validation using real-world data before informing decisions.
+
+## Limitations
+
+* **Synthetic data:** The dataset may not accurately represent real student behavior or exam performance, limiting the generalizability of the findings.
+* **Predictor scope:** The analysis focused on five predictors, while other measured or unmeasured factors may also influence exam scores.
+* **Model assumptions:** The final model did not satisfy the normality assumption, limiting confidence in some aspects of statistical inference.
+* **Outliers:** The presence of outliers may have influenced the model estimates and results.
 
 ## Files
 

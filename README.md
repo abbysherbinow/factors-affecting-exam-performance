@@ -49,4 +49,6 @@ The report focuses on five predictors: hours studied, attendance, hours of sleep
 
 ## Files
 
-*Project files and analysis materials will be added here.*
+* `exam_performance_analysis.R` — R script containing the data analysis, visualizations, regression models, hypothesis tests, and model diagnostics.
+* `StudentPerformanceFactors.csv` — Synthetic student performance dataset used in the analysis.
+* `Factors-Affecting-Exam-Performance.Rproj` — RStudio project file for opening the project in RStudio.

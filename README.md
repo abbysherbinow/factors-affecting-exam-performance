@@ -13,16 +13,26 @@ This project investigates factors associated with exam performance using a synth
 
 ## Methods
 
-The analysis was conducted in R and included exploratory data visualization, descriptive statistics, correlation analysis, multiple linear regression, hypothesis testing, assumption checking, and model evaluation.
+The analysis was conducted in R and included:
+
+* Exploratory data analysis, data visualization, and descriptive statistics
+* Correlation analysis and multiple linear regression
+* Hypothesis testing for overall model significance and individual predictors
+* ANOVA comparisons of full and reduced regression models
+* Forward and backward stepwise variable selection
+* Interaction-term testing and model comparison using AIC, BIC, and adjusted R-squared
+* Regression diagnostics, multicollinearity assessment, and attempted response-variable transformations
 
 ## Tools
 
-* **Language:** R
-* **Techniques:** Exploratory data analysis, statistical inference, correlation analysis, multiple linear regression, hypothesis testing, and model diagnostics
+* **Programming language:** R
+* **Statistical techniques:** Exploratory data analysis, regression modeling, statistical inference, variable selection, interaction analysis, and model diagnostics
 
 ## Dataset
 
-The project uses synthetic exam-performance data rather than observations collected from actual students.
+The project uses the *Student Performance Factors* dataset from Kaggle, containing 6,607 student records. The data is synthetic and should not be interpreted as direct evidence of real-world student behavior.
+
+The report focuses on five predictors: hours studied, attendance, hours of sleep, extracurricular participation, and gender. Exam score is the dependent variable.
 
 ## Key Findings
 
